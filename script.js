@@ -8,7 +8,7 @@ const getSum = () => {
   let total = 0;
 
 	for (let t of price) {
-		total=total+price
+		total += parseInt(t.textContent);
 		
 	}
   
